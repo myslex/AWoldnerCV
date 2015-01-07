@@ -46,7 +46,7 @@ namespace AWoldnerCV
             corecss.Transforms.Add(new StyleTransformer());
             corecss.Transforms.Add(new CssMinify());
             corecss.Orderer = new NullOrderer();
-            corecss.Include("~/less/style.less", "~/sass/radial-progress.css", "~/css/font-awesome.css");
+            corecss.Include("~/less/style.less", "~/css/font-awesome.css");
             bundles.Add(corecss);
         }
     }

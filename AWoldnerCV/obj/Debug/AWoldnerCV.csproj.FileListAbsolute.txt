@@ -33,3 +33,38 @@ C:\Users\m41n\documents\visual studio 2013\Projects\AWoldnerCV\AWoldnerCV\bin\ru
 C:\Users\m41n\documents\visual studio 2013\Projects\AWoldnerCV\AWoldnerCV\bin\JavaScriptEngineSwitcher.Msie.dll
 C:\Users\m41n\documents\visual studio 2013\Projects\AWoldnerCV\AWoldnerCV\bin\MsieJavaScriptEngine.dll
 C:\Users\m41n\documents\visual studio 2013\Projects\AWoldnerCV\AWoldnerCV\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AWoldnerCV.dll.config
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AWoldnerCV.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AWoldnerCV.pdb
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\Antlr3.Runtime.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\BundleTransformer.Core.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\BundleTransformer.Less.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\JavaScriptEngineSwitcher.Core.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\JavaScriptEngineSwitcher.Msie.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\MsieJavaScriptEngine.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\Newtonsoft.Json.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Helpers.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Mvc.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Optimization.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Razor.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.Razor.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\WebGrease.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\Antlr3.Runtime.pdb
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\Newtonsoft.Json.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Helpers.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Mvc.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Optimization.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.Razor.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.Razor.xml
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\BundleTransformer.Core.resources.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\BundleTransformer.Less.resources.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.csprojResolveAssemblyReference.cache
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.dll
+C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.pdb

@@ -1,0 +1,30 @@
+@import "../variables.less";
+
+.loadProgress(@selector) {
+    .progress(@index) { // initial
+        @item: ~".progress-@{index}";
+        .progress((@index + 1), @selector, @item);
+    }
+
+    .progress(@index, @selector, @value) when (@index =< @circle-loops) { // general; "=<" isn't a typo
+        @item: ~".progress-@{index}";
+
+        & when (@index =< @circle-half) {
+            @{selector}@{item} {
+                @nextdeg: 90deg + ( 360 * @index / @circle-loops );
+                background-image: linear-gradient(90deg, @circle-back-color 50%, transparent 50%, transparent), linear-gradient(@nextdeg, @circle-bar-color 50%, @circle-back-color 50%, @circle-back-color);
+            }
+        }
+
+        & when (@index > @circle-half) {
+            @{selector}@{item} {
+                @nextdeg: -90deg + ( 360 * ( @index - @circle-half ) / @circle-loops );
+                background-image: linear-gradient(@nextdeg, @circle-bar-color 50%, transparent 50%, transparent), linear-gradient(270deg, @circle-bar-color 50%, @circle-back-color 50%, @circle-back-color);
+            }
+        }
+
+        .progress(@index);
+    }
+
+    .progress(1); // kickstart it
+}
