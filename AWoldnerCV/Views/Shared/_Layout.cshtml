@@ -6,7 +6,7 @@
     <title>Alex Woldner CV</title>
 
     @Styles.Render(AWoldnerCV.BundleConfig.CoreCss)
-    @Scripts.Render(AWoldnerCV.BundleConfig.Modernizr)
+    @*@Scripts.Render(AWoldnerCV.BundleConfig.Modernizr)*@
 </head>
 <body>
     <div class="container body-content">
@@ -15,8 +15,8 @@
         @RenderBody()
     </div>
 
-    @Scripts.Render(AWoldnerCV.BundleConfig.JQuery)
-    @Scripts.Render(AWoldnerCV.BundleConfig.Bootstrap)
+    @*@Scripts.Render(AWoldnerCV.BundleConfig.JQuery)
+    @Scripts.Render(AWoldnerCV.BundleConfig.Bootstrap)*@
     @RenderSection("scripts", required: false)
 </body>
 </html>
