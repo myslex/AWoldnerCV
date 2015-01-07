@@ -12,14 +12,28 @@
         & when (@index =< @circle-half) {
             @{selector}@{item} {
                 @nextdeg: 90deg + ( 360 * @index / @circle-loops );
-                background-image: linear-gradient(90deg, @circle-back-color 50%, transparent 50%, transparent), linear-gradient(@nextdeg, @circle-bar-color 50%, @circle-back-color 50%, @circle-back-color);
+
+                & when (@index < 25) {
+                    background-image: linear-gradient(90deg, @circle-back-color 50%, transparent 50%, transparent), linear-gradient(@nextdeg, @tertiary-color-6 50%, @circle-back-color 50%, @circle-back-color);
+                }
+
+                & when (@index >= 25) {
+                    background-image: linear-gradient(90deg, @circle-back-color 50%, transparent 50%, transparent), linear-gradient(@nextdeg, @tertiary-color-5 50%, @circle-back-color 50%, @circle-back-color);
+                }
             }
         }
 
         & when (@index > @circle-half) {
             @{selector}@{item} {
                 @nextdeg: -90deg + ( 360 * ( @index - @circle-half ) / @circle-loops );
-                background-image: linear-gradient(@nextdeg, @circle-bar-color 50%, transparent 50%, transparent), linear-gradient(270deg, @circle-bar-color 50%, @circle-back-color 50%, @circle-back-color);
+
+                & when (@index >= 75) {
+                    background-image: linear-gradient(@nextdeg, @tertiary-color-1 50%, transparent 50%, transparent), linear-gradient(270deg, @tertiary-color-1 50%, @circle-back-color 50%, @circle-back-color);
+                }
+
+                & when (@index < 75) {
+                    background-image: linear-gradient(@nextdeg, @tertiary-color-3 50%, transparent 50%, transparent), linear-gradient(270deg, @tertiary-color-3 50%, @circle-back-color 50%, @circle-back-color);
+                }
             }
         }
 

@@ -132,7 +132,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\xAW.jpg" />
+    <Content Include="assets\AW.jpg" />
     <Content Include="less\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="favicon.ico" />
     <Content Include="less\fonts\fontawesome-webfont.svg" />
@@ -218,7 +218,6 @@
     <Content Include="less\fonts\fontawesome-webfont.ttf" />
     <Content Include="less\fonts\fontawesome-webfont.eot" />
     <Content Include="less\fonts\FontAwesome.otf" />
-    <Content Include="less\timeline-responsive.less" />
     <Content Include="less\mixins\radial-progress.less" />
     <Content Include="less\variables.less" />
     <Content Include="less\font-awesome\bordered-pulled.less" />
