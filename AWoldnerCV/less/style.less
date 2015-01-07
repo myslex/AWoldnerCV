@@ -26,6 +26,11 @@ body {
     padding-top: 70px;
 }
 
+// set to match
+a {
+    color: @tertiary-color-0;
+}
+
 /* education section */
 
 .blockquote-box {
@@ -140,28 +145,39 @@ body {
 #contact-wrapper #phone.contact-row div.contact-value {
     padding: 0 5px;
     float: left;
-    color: @tertiary-color-1;
+    color: @tertiary-color-0;
 }
 
 #contact-wrapper #phone.contact-row div.contact-icon {
     padding: 0 5px;
     float: right;
+    color: @tertiary-color-0;
 }
 
 /* email */
 #contact-wrapper #email.contact-row div.contact-value {
     padding: 0 5px;
     float: right;
-    color: @tertiary-color-1;
-    // set to match
-    a {
-        color: @tertiary-color-1;
-    }
+    color: @tertiary-color-0;
 }
 
 #contact-wrapper #email.contact-row div.contact-icon {
     padding: 0 5px;
     float: left;
+    color: @tertiary-color-0;
+}
+
+/* home */
+#contact-wrapper #home.contact-row div.contact-value {
+    padding: 0 5px;
+    float: left;
+    color: @tertiary-color-0;
+}
+
+#contact-wrapper #home.contact-row div.contact-icon {
+    padding: 0 5px;
+    float: right;
+    color: @tertiary-color-0;
 }
 
 /* link icon */
@@ -405,7 +421,6 @@ table tbody tr.uneven {
 }
 
 .timeline-badge {
-
     // todo: add mixin
     &.timeline-1 {
         background-color: @tertiary-color-0 !important;
@@ -442,7 +457,6 @@ table tbody tr.uneven {
     &.timeline-9 {
         background-color: @tertiary-color-8 !important;
     }
-
     // no more colors :-)
 }
 
