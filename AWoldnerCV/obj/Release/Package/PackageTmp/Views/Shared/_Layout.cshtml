@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Woldner CV</title>
+
+    @Styles.Render(AWoldnerCV.BundleConfig.CoreCss)
+    @Scripts.Render(AWoldnerCV.BundleConfig.Modernizr)
+</head>
+<body>
+    <div class="container body-content">
+        @Html.Partial("partials/_navbar")
+
+        @RenderBody()
+    </div>
+
+    @Scripts.Render(AWoldnerCV.BundleConfig.JQuery)
+    @Scripts.Render(AWoldnerCV.BundleConfig.Bootstrap)
+    @RenderSection("scripts", required: false)
+</body>
+</html>

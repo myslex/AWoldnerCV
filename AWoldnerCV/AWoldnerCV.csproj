@@ -234,6 +234,7 @@
     <Content Include="less\font-awesome\spinning.less" />
     <Content Include="less\font-awesome\stacked.less" />
     <Content Include="less\font-awesome\variables.less" />
+    <None Include="Properties\PublishProfiles\woldnercv.pubxml" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
