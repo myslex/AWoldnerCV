@@ -43,10 +43,9 @@ namespace AWoldnerCV
 
             // core css (less)
             Bundle corecss = new Bundle(CoreCss);
-            corecss.Transforms.Add(new StyleTransformer());
             corecss.Transforms.Add(new CssMinify());
             corecss.Orderer = new NullOrderer();
-            corecss.Include("~/less/style.less");
+            corecss.Include("~/stylesheets/styles.css");
             bundles.Add(corecss);
         }
     }

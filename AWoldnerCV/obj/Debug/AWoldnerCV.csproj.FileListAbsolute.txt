@@ -102,3 +102,4 @@ C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\JavaScriptEngineS
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\MsieJavaScriptEngine.resources.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.pdb
+C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.csprojResolveAssemblyReference.cache
