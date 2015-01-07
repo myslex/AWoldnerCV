@@ -63,38 +63,38 @@ body {
 }
 
 .blockquote-box.blockquote-1 {
-    border-color: @tertiary-color-0;
+    border-color: @tertiary-color-1;
 }
 
 .blockquote-box.blockquote-1 .blockquote-square {
-    background-color: @tertiary-color-0;
+    background-color: @tertiary-color-1;
     color: #fff;
 }
 
 .blockquote-box.blockquote-box.blockquote-2 {
-    border-color: @tertiary-color-2;
+    border-color: @tertiary-color-3;
 }
 
 .blockquote-box.blockquote-2 .blockquote-square {
-    background-color: @tertiary-color-2;
+    background-color: @tertiary-color-3;
     color: #fff;
 }
 
 .blockquote-box.blockquote-3 {
-    border-color: @tertiary-color-4;
+    border-color: @tertiary-color-5;
 }
 
 .blockquote-box.blockquote-3 .blockquote-square {
-    background-color: @tertiary-color-4;
+    background-color: @tertiary-color-5;
     color: #fff;
 }
 
 .blockquote-box.blockquote-4 {
-    border-color: @tertiary-color-6;
+    border-color: @tertiary-color-7;
 }
 
 .blockquote-box.blockquote-4 .blockquote-square {
-    background-color: @tertiary-color-6;
+    background-color: @tertiary-color-7;
     color: #fff;
 }
 
@@ -153,7 +153,6 @@ body {
     padding: 0 5px;
     float: right;
     color: @tertiary-color-1;
-
     // set to match
     a {
         color: @tertiary-color-1;
@@ -406,25 +405,57 @@ table tbody tr.uneven {
 }
 
 .timeline-badge {
-    &.primary {
+
+    // todo: add mixin
+    &.timeline-1 {
+        background-color: @tertiary-color-0 !important;
+    }
+
+    &.timeline-2 {
+        background-color: @tertiary-color-1 !important;
+    }
+
+    &.timeline-3 {
         background-color: @tertiary-color-2 !important;
     }
 
-    &.tertiary {
-        background-color: @tertiary-color-2 !important;
+    &.timeline-4 {
+        background-color: @tertiary-color-3 !important;
     }
+
+    &.timeline-5 {
+        background-color: @tertiary-color-4 !important;
+    }
+
+    &.timeline-6 {
+        background-color: @tertiary-color-5 !important;
+    }
+
+    &.timeline-7 {
+        background-color: @tertiary-color-6 !important;
+    }
+
+    &.timeline-8 {
+        background-color: @tertiary-color-7 !important;
+    }
+
+    &.timeline-9 {
+        background-color: @tertiary-color-8 !important;
+    }
+
+    // no more colors :-)
 }
 
 .timeline-title {
     font-weight: 900;
     margin-top: 0;
-    color: @tertiary-color-2;
+    color: @secondary-color-0;
 }
 
 .timeline-desc {
     font-weight: 900;
     margin-top: 0;
-    color: @tertiary-color-3;
+    color: @secondary-color-1;
 }
 
 .timeline-body {
