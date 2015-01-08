@@ -69,8 +69,8 @@ C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.cs
 C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.dll
 C:\Users\lolapt0p\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.pdb
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\ClearScriptV8-32.dll
-C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\ClearScriptV8-64.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\v8-ia32.dll
+C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\ClearScriptV8-64.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\v8-x64.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AWoldnerCV.dll.config
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AWoldnerCV.dll

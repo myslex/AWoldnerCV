@@ -10,57 +10,61 @@
 @import "partials/base";
 
 html * {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-	font: {
-		family: $primary-font;
-	}
-	color: $primary-color-0;
-	background-color: $background-color;
+    font: {
+        family: $primary-font;
+    }
 
+    color: $primary-color-0;
+    background-color: $background-color;
     padding: 70px 15px 20px 15px;
 }
 
 /* timeline section */
 
 .timeline {
-  list-style: none;
+    list-style: none;
 }
+
 .timeline > li {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 /* for Desktop */
-@media ( min-width : 640px ){
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  .timeline-date {
-    width: 110px;
-    float: left;
-    margin-top: 20px;
-  }
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
-    position: absolute;
-    left: 106px;
-    top: 24px;
-    border-radius: 100%;
-  }
+@media ( min-width : 640px ) {
+    .timeline > li {
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+    }
+
+    .timeline-date {
+        width: 110px;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .timeline-content {
+        width: 75%;
+        float: left;
+        border-left: 3px #e5e5d1 solid;
+        padding-left: 30px;
+    }
+
+    .timeline-content:before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: #6fc173;
+        position: absolute;
+        left: 106px;
+        top: 24px;
+        border-radius: 100%;
+    }
 }
 
 /* education section */
@@ -149,67 +153,39 @@ body {
 }
 
 #contact-wrapper {
-    width: 200px;
-    float: right;
-    margin: 0 auto;
-    overflow: hidden;
+    //
 }
 
 #contact-wrapper .contact-row {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-}
-
-#contact-wrapper .contact-row .value-wrapper {
-    display: inline-block;
-    vertical-align: middle;
-    width: 70%;
+    padding:10px 0;
 }
 
 #contact-wrapper .contact-row .icon-wrapper {
     display: inline-block;
     vertical-align: middle;
-    width: 25%;
+    width: 70px;
+    //margin: 0 auto;
 }
 
-/* phone */
-#contact-wrapper #phone.contact-row div.contact-value {
-    padding: 0 5px;
-    float: left;
-    color: $secondary-color-0;
-}
-
-#contact-wrapper #phone.contact-row div.contact-icon {
-    padding: 0 5px;
-    float: right;
-    color: $secondary-color-0;
+#contact-wrapper .contact-row .value-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 
 /* email */
-#contact-wrapper #email.contact-row div.contact-value {
+#contact-wrapper .contact-row div.contact-value {
     padding: 0 5px;
-    float: right;
     color: $secondary-color-0;
 }
 
-#contact-wrapper #email.contact-row div.contact-icon {
+#contact-wrapper .contact-row div.contact-icon {
     padding: 0 5px;
-    float: left;
     color: $secondary-color-0;
-}
-
-/* home */
-#contact-wrapper #home.contact-row div.contact-value {
-    padding: 0 5px;
-    float: left;
-    color: $secondary-color-0;
-}
-
-#contact-wrapper #home.contact-row div.contact-icon {
-    padding: 0 5px;
-    float: right;
-    color: $secondary-color-0;
+    text-align: center;
 }
 
 /* link icon */
