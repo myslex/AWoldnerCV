@@ -109,5 +109,6 @@ C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\System.Web.WebPages.Raz
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\BundleTransformer.Core.resources.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.csprojResolveAssemblyReference.cache
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\obj\Debug\AWoldnerCV.pdb

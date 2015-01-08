@@ -11582,28 +11582,28 @@ body {
   list-style: none;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .timeline > li {
   margin-bottom: 60px;
 }
 
 /* for Desktop */
 @media (min-width: 640px) {
-  /* line 38, ../sass/styles.scss */
+  /* line 39, ../sass/styles.scss */
   .timeline > li {
     overflow: hidden;
     margin: 0;
     position: relative;
   }
 
-  /* line 43, ../sass/styles.scss */
+  /* line 45, ../sass/styles.scss */
   .timeline-date {
     width: 110px;
     float: left;
     margin-top: 20px;
   }
 
-  /* line 48, ../sass/styles.scss */
+  /* line 51, ../sass/styles.scss */
   .timeline-content {
     width: 75%;
     float: left;
@@ -11611,7 +11611,7 @@ body {
     padding-left: 30px;
   }
 
-  /* line 54, ../sass/styles.scss */
+  /* line 58, ../sass/styles.scss */
   .timeline-content:before {
     content: '';
     width: 12px;
@@ -11624,7 +11624,7 @@ body {
   }
 }
 /* education section */
-/* line 68, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 .blockquote-box {
   border-left: 5px solid;
   border-top: 0px solid;
@@ -11635,7 +11635,7 @@ body {
   display: block;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .blockquote-box .blockquote-square {
   width: 120px;
   min-height: 50px;
@@ -11646,13 +11646,13 @@ body {
   font-size: 15px;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 .blockquote-box h2 {
   padding-top: 0.4em;
   padding-bottom: 0.2em;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 .blockquote-box p {
   padding-left: 1em;
   padding-top: 1em;
@@ -11661,52 +11661,52 @@ body {
   margin-bottom: 0px;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .blockquote-box.blockquote-1 {
   border-color: #7c8ca0;
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .blockquote-box.blockquote-1 .blockquote-square {
   background-color: #7c8ca0;
   color: #fff;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 .blockquote-box.blockquote-box.blockquote-2 {
   border-color: #9da9b8;
 }
 
-/* line 115, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 .blockquote-box.blockquote-2 .blockquote-square {
   background-color: #9da9b8;
   color: #fff;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .blockquote-box.blockquote-3 {
   border-color: #bdc5cf;
 }
 
-/* line 124, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 .blockquote-box.blockquote-3 .blockquote-square {
   background-color: #bdc5cf;
   color: #fff;
 }
 
-/* line 129, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 .blockquote-box.blockquote-4 {
   border-color: #dee2e7;
 }
 
-/* line 133, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .blockquote-box.blockquote-4 .blockquote-square {
   background-color: #dee2e7;
   color: #fff;
 }
 
 /* contact section */
-/* line 140, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .image-portrait {
   margin: 10px auto;
   position: relative;
@@ -11718,100 +11718,62 @@ body {
   border-radius: 50%;
 }
 
-/* line 151, ../sass/styles.scss */
-#contact-wrapper {
-  width: 200px;
-  float: right;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-/* line 158, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 #contact-wrapper .contact-row {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
+  padding: 10px 0;
 }
 
-/* line 164, ../sass/styles.scss */
-#contact-wrapper .contact-row .value-wrapper {
-  display: inline-block;
-  vertical-align: middle;
-  width: 70%;
-}
-
-/* line 170, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 #contact-wrapper .contact-row .icon-wrapper {
   display: inline-block;
   vertical-align: middle;
-  width: 25%;
+  width: 70px;
 }
 
-/* phone */
-/* line 177, ../sass/styles.scss */
-#contact-wrapper #phone.contact-row div.contact-value {
-  padding: 0 5px;
-  float: left;
-  color: #6c7e94;
-}
-
-/* line 183, ../sass/styles.scss */
-#contact-wrapper #phone.contact-row div.contact-icon {
-  padding: 0 5px;
-  float: right;
-  color: #6c7e94;
+/* line 173, ../sass/styles.scss */
+#contact-wrapper .contact-row .value-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
 }
 
 /* email */
-/* line 190, ../sass/styles.scss */
-#contact-wrapper #email.contact-row div.contact-value {
+/* line 180, ../sass/styles.scss */
+#contact-wrapper .contact-row div.contact-value {
   padding: 0 5px;
-  float: right;
   color: #6c7e94;
 }
 
-/* line 196, ../sass/styles.scss */
-#contact-wrapper #email.contact-row div.contact-icon {
+/* line 185, ../sass/styles.scss */
+#contact-wrapper .contact-row div.contact-icon {
   padding: 0 5px;
-  float: left;
   color: #6c7e94;
-}
-
-/* home */
-/* line 203, ../sass/styles.scss */
-#contact-wrapper #home.contact-row div.contact-value {
-  padding: 0 5px;
-  float: left;
-  color: #6c7e94;
-}
-
-/* line 209, ../sass/styles.scss */
-#contact-wrapper #home.contact-row div.contact-icon {
-  padding: 0 5px;
-  float: right;
-  color: #6c7e94;
+  text-align: center;
 }
 
 /* link icon */
-/* line 216, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 #information-wrapper {
   margin: 0 auto;
   overflow: hidden;
 }
 
-/* line 221, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 #information-wrapper .information-row {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 226, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 #information-wrapper .information-row .value-wrapper {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 231, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 #information-wrapper .information-row .icon-wrapper {
   display: inline-block;
   vertical-align: middle;
@@ -11819,21 +11781,21 @@ body {
 }
 
 /* link */
-/* line 238, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 #information-wrapper #plushogskolan.information-row div.information-value {
   padding: 0 5px;
   float: left;
   color: #8c9aac;
 }
 
-/* line 244, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 #information-wrapper #plushogskolan.contact-row div.information-icon {
   padding: 0 5px;
   float: left;
 }
 
 /* icons */
-/* line 250, ../sass/styles.scss */
+/* line 226, ../sass/styles.scss */
 .social-icon {
   /*width: 24%;*/
   width: 32%;
@@ -11841,7 +11803,7 @@ body {
   color: #8c9aac;
 }
 
-/* line 257, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 #contact-name {
   margin: 15px 25px;
   font-size: 42px;
@@ -11850,30 +11812,30 @@ body {
   color: #8c9aac;
 }
 
-/* line 265, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 #contact-comment {
   text-align: justify;
 }
 
 @media (max-width: 991px) {
-  /* line 269, ../sass/styles.scss */
+  /* line 245, ../sass/styles.scss */
   #contact-name {
     text-align: center;
   }
 }
 
-/* line 275, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 table tbody tr.even {
   background-color: inherit;
 }
 
-/* line 279, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 table tbody tr.uneven {
   background-color: #eef0f3;
 }
 
 /* scrolling */
-/* line 284, ../sass/styles.scss */
+/* line 260, ../sass/styles.scss */
 .section {
   padding-top: 50px;
   margin-top: -50px;
@@ -11885,7 +11847,7 @@ table tbody tr.uneven {
 /* -------------------------------------
  * Bar container
  * ------------------------------------- */
-/* line 296, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 .progress-radial {
   position: relative;
   margin: 15px 0;
@@ -11899,7 +11861,7 @@ table tbody tr.uneven {
 /* -------------------------------------
  * Optional centered circle w/text
  * ------------------------------------- */
-/* line 309, ../sass/styles.scss */
+/* line 285, ../sass/styles.scss */
 .progress-radial .progress-overlay {
   position: absolute;
   width: 60px;
@@ -11913,7 +11875,7 @@ table tbody tr.uneven {
   font-size: 16px;
 }
 
-/* line 322, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 .progress-radial .progress-label {
   text-align: left;
   margin-left: 120px;
@@ -11922,7 +11884,7 @@ table tbody tr.uneven {
 }
 
 @media (max-width: 767px) {
-  /* line 329, ../sass/styles.scss */
+  /* line 305, ../sass/styles.scss */
   .progress-radial {
     margin: 10px 15%;
   }
