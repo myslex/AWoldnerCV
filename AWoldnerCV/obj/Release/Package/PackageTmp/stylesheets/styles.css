@@ -11864,7 +11864,7 @@ body {
 
 /* line 275, ../sass/styles.scss */
 table tbody tr.even {
-  background-color: #dee2e7;
+  background-color: inherit;
 }
 
 /* line 279, ../sass/styles.scss */

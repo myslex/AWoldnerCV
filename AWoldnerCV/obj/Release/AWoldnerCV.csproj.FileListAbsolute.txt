@@ -32,7 +32,6 @@ C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\ClearScr
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\ClearScriptV8-64.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\v8-ia32.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\ClearScript.V8\v8-x64.dll
-C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\AjaxMin.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\BundleTransformer.Autoprefixer.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\BundleTransformer.CleanCss.dll
 C:\Users\m41n\Documents\GitHub\AWoldnerCV\AWoldnerCV\bin\BundleTransformer.SassAndScss.dll
